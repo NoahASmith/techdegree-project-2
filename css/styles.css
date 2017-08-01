@@ -88,7 +88,7 @@ main p {
 	text-align: center;
 	padding-left: 40px;
 	padding-right: 40px;
-	
+	padding-bottom: 35px;
 }
 
 
@@ -96,6 +96,28 @@ main p {
 
 
 
+/* Middle content */
+
+main h2 {
+	padding-top: 30px;
+	text-align: center;
+	font-weight: 300;
+}
+
+.portfolio,
+main h2
+{
+	font-family: 'Yanone Kaffeesatz', Georgia, sans-serif;
+	background-color: #fff;
+}
+
+.portfolio{
+	z-index: 100;
+	
+}
+
+
+/* /End/ Middle Content */
 
 
 
