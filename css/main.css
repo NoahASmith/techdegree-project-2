@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+/*		For adding a red border for box checking
+* {
+	
+	border-color: red;
+	border-style: solid;
+	border-radius: .1px;
+}
+*/
+
+
+
+
+
+body {
+	background-color: #fafafa;
+}
+
+/*Navigation*/
+
+
+
+.main-nav {
+	margin: 0 auto;
+	text-align: center;
+	display: inline;
+	
+}
+
+header {
+	background-color: #fafafa;
+}
+
+header h1 {
+	font-size: 2em;
+	font-family: 'Lobster', Georgia, sans-serif;
+}
+
+header h1 a {
+	color: #626f7e;
+}
+
+header li {
+	font-family: 'Yanone Kaffeesatz', Georgia, sans-serif;
+	font-weight: 700;
+	list-style: none;
+	text-decoration: none;
+	padding: 10px 15px;
+	margin-bottom: 7px;
+	background-color: #fff;
+	font-size: 1.75em;
+}
+
+header li a {
+	color: #626f7e;
+}
+
+a:link {
+	text-decoration: none;
+	color: #4A4A4A;
+}
+
+a:hover {
+	color: #2a2a2a;
+}
+
+/* /End/ Navigation*/
+
+/*Beginning Content*/
+
+.intro img {
+	width: 70%;
+	display: block;
+	margin: 60px auto 15px;
+	
+}
+
+main p {
+	
+	font-family: 'Yanone Kaffeesatz', Georgia, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+
+
+/* /End/ Beginning Conetent */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
