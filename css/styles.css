@@ -81,9 +81,8 @@ a:hover {
 }
 
 main p {
-	
 	font-family: 'Yanone Kaffeesatz', Georgia, sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 20px;
 	text-align: center;
 	padding-left: 40px;
@@ -98,24 +97,72 @@ main p {
 
 /* Middle content */
 
-main h2 {
-	padding: 30px 0 0;
+#lower {
+	padding-bottom: 45px;
+}
+
+main h3 {
+	padding: 35px 0 0;
 	text-align: center;
 	font-weight: 300;
 	font-family: 'Yanone Kaffeesatz', Georgia, sans-serif;
-	background: #fff;
 	width: 100%;
 }
 
-.portfolio{
-	margin: 0 auto;
-	width: 130%;
+main h2 {
+	text-align: center;
+	font-weight: 400;
+	font-family: 'Yanone Kaffeesatz', Georgia, sans-serif;
+	width: 100%;
 }
 
+.portfolio p {
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Yanone Kaffeesatz', Georgia, sans-serif;
+	padding-bottom: 0px;
+}
 
+.portfolio img {
+	margin-top: 45px;
+	width: 290px;
+	padding-top: 1px;
+}
+
+.portfolio{
+	display: block;
+	margin: auto;
+}
+
+.content-background {
+	background: #fff;
+}
 /* /End/ Middle Content */
 
 
+/* Footer */
+
+
+footer h2 {
+	text-align: center;
+	font-weight: 400;
+	font-family: 'Yanone Kaffeesatz', Georgia, sans-serif;
+	width: 100%;
+	padding-top: 33px;
+	padding-bottom: 10px;
+}
+
+footer p {
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Yanone Kaffeesatz', Georgia, sans-serif;
+	padding-bottom: 20px;
+}
+
+footer li {
+	list-style: none;
+	text-align: center;
+}
 
 
 
@@ -126,16 +173,7 @@ main h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
+/* /End/ Footer */
 
 
 
