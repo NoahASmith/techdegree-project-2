@@ -1,90 +1,331 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-
-
-/*		For adding a red border for box checking*/
-/*
-* {
-	
-	border-color: red;
-	border-style: solid;
-	border-radius: .1px;
-}
-*/
-
-* {
-    font-family: 'Josefin Sans', sans-serif;
-    background: #fafafa;
-}
-
-body {
-	margin: 0 0 0 0;
-}
-
 a {
     text-decoration: none;
+    color: black;
 }
 
-/*Header*/
-.head {
-    
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    align-content: center;
+img{
+    width: 90%;
 }
 
-.head li {
+ul {
     list-style: none;
-    text-align: center;
-    line-height: 1.5em;
-    border: 1px solid white;
-    border-width: 75%;
-}
-/*Profile*/
-#profile {
-    height: 123px;
-    width: 200px;
-    margin-left: 59px;
-    margin-right: 59px;
-}
-.profiletext {
-    font-size: 14px;
-    text-align: center;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 0;
+    padding: 0;
 }
 
+/*Fonts*/
+* {
+    font-family: 'Josefin Sans', 'Helvetica', ' sans-serif' ;
+}
 
-/*Main*/
-.wrapper {
-    background-color: white;
+li, p {
+    font-size: 1.2em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*End Fonts*/
+
+/*!!!Layouts!!!*/
+
+/*Body*/
+
+body {
+    background: #578476;
+}
+
+/*Head*/
+
+.head {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.container h1 {
+    padding-bottom: 20px;
+    color: white;
+    font-size: 2.5em;
+    border-bottom: solid 1px white;
+}
+/*End Head*/
+
+/*Top Nav*/
+.top-nav {
+    width: 90%;
     margin: 0 auto;
 }
 
-div h2 {
+.top-nav li {
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgb(0,0,0);
+}
+
+.top-nav a{
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+}
+/*End Top Nav*/
+
+
+/*Banner*/
+
+.banner {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.banner p{
+    color: #222;
+}
+/*End Banner*/
+
+/*Skills*/
+.skills {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.skills h2 {
+    font-size: 2em;
+}
+.skills li {
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgb(0,0,0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*End Skills*/
+
+/*Content*/
+.content {
+    background: white;
+    text-align: center;
+    box-shadow: 0 1px 3px rgb(0,0,0);
+}
+
+.portfolio {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.portfolio h2 {
+    font-size: 2em;
     text-align: center;
 }
 
-.portfolio img {
-    height: 162px;
-    width: 290px;
-    margin-right: 16px;
-    margin-left: 16px;
+.portfoliotext
+{
+    padding-top: 25px;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.portfolio1, .portfolio2, .portfolio3, .portfolio4, .portfolio5, .portfolio6 {
-    hieght: 162px;
-    width: 290px;
-    margin-left: auto;
-    margin-right: auto;
+.portfoliotext h3 {
+    font-size: 1.5em;
 }
 
-.portfoiotext {
+.portfoliotext p {
+    font-size: 1.1em;
+}
+/*End Content*/
+
+/*Contact*/
+.contact {
+    width: 90%;
+    margin: 0 auto;
     text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
+
+.contact h2 {
+    color: #222;
+    font-size: 2em;
+}
+
+.contact p {
+    color: #222;
+}
+.info {
+    color: white;
+    border-bottom: solid 1px white;
+}
+/*End of Contact*/
+
+/*Footer*/
+.footer {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.low-nav {
+    display:none;
+}
+/*End of Footer*/
+/*!!!End of Layouts!!!*/
+
+
+/*!!!Media Queries!!!*/
+
+/*!Medium Screen!*/
+
+@media (min-width: 768px) {
+   
+/*Navigation*/
+    .top-nav li{
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: transparent;
+        box-shadow: none;
+    } 
+    .top-nav a:hover {
+        color: white;
+    }
+    .top-nav a {
+        color: black;
+    }
+/*End Navigation*/
+    
+/*Banner*/
+    .banner {
+        width: 90%;
+        padding-bottom: 50px;
+    }
+    .banner img {
+        float: right;
+        width: 40%;
+    }
+    .banner p {
+        float: left;
+        width: 60%;
+        padding: 5px 15px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+/*End Banner*/
+    
+/*Skills*/
+    .skills li{
+        background-color: transparent;
+        box-shadow: none;
+        border-bottom: 1px solid white;
+        width: 50%;
+        margin: 0 auto 10px;
+    }
+/*End Skills
+    
+/*Content*/
+    .portfolio {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .portfoliotext {
+        width: 50%;
+        float: left;
+        padding: 10px 10px;
+        box-sizing: border-box;
+    }
+/*End Content*/
+    
+/*Contact*/
+    .contact {
+        
+    }
+    
+/*End Contact*/
+    
+/*Footer*/
+    .footer {
+        color: white;
+    }
+    .low-nav {
+        display: block;
+        float: right;
+    }
+    .low-nav a{
+        color: white;
+    }
+    .footer nav{
+        float: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+/*End Footer*/
+}
+
+@media (min-width: 1024px){
+/*Container*/
+    
+    .container {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    
+    .banner p {
+        font-size: 1.5em;
+    }
+    
+    .head {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-bottom: 35px;
+        margin-left: 0px;
+        background-color: white;
+        width: 100%;
+        box-shadow: 0 1px 2px rgba(0,0,0,.3);
+        top: 0;
+    }
+    
+    .top-nav{
+        float: right;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+    }
+    
+    .top-nav a:hover {
+        color: #999;
+    }
+    
+    .top-nav a {
+        margin: 0px;
+        padding: 0px;
+        color: black;
+    }
+    
+    .container h1 {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+   div.content {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .portfoliotext {
+        width: 33.3%;
+    }
+}
+
+
 
 
 /*clearfix*/
