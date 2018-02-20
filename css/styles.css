@@ -165,14 +165,31 @@ body {
 
 /*Footer*/
 .footer {
-    float: left;
+    width: 90%;
     padding: 0px;
+    margin: 0px auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid #fff;
+}
+
+.bottom-name {
+    float: left;
     margin: 0px;
+    padding: 0px;
+}
+.footer li, h3 {
+    font-size: 1.1em;
 }
 
 .low-nav {
-    display:none;
+    display: none;
 }
+
+.back-top {
+    float: right;
+}
+
 /*End of Footer*/
 /*!!!End of Layouts!!!*/
 
@@ -260,12 +277,22 @@ body {
     .low-nav a{
         color: white;
     }
-    .footer nav{
-        float: left;
+    .low-nav{
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 10px;
     }
+    .low-nav li {
+        float: left;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .bottom-name {
+        display: block;
+    }
+    .back-top {
+    display: none;
+}
 /*End Footer*/
 }
 
@@ -324,7 +351,6 @@ body {
         width: 33.3%;
     }
 }
-
 
 
 
